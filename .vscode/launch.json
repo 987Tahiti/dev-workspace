@@ -2,21 +2,45 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "Launch .NET Core Console",
+      "name": ".NET Core (Windows)",
       "type": "coreclr",
       "request": "launch",
-      "preLaunchTask": "build",
-      "program": "${workspaceFolder}/projects/Windows/bin/Debug/net8.0/YourApp.dll",
+      "preLaunchTask": "build-dotnet",
+      "program": "${workspaceFolder}/projects/Windows/bin/Debug/net8.0/App.dll",
       "args": [],
       "cwd": "${workspaceFolder}/projects/Windows",
-      "stopAtEntry": false
+      "stopAtEntry": false,
+      "console": "internalConsole"
     },
     {
-      "name": "Launch Node.js",
+      "name": "Node.js (Web)",
       "type": "pwa-node",
       "request": "launch",
+      "preLaunchTask": "start-web",
       "program": "${workspaceFolder}/projects/Web/server.js",
-      "cwd": "${workspaceFolder}/projects/Web"
+      "cwd": "${workspaceFolder}/projects/Web",
+      "skipFiles": ["<node_internals>/**"]
+    },
+    {
+      "name": "Node.js (Debug Web)",
+      "type": "pwa-chrome",
+      "request": "launch",
+      "url": "http://localhost:3000",
+      "webRoot": "${workspaceFolder}/projects/Web/public"
+    },
+    {
+      "name": "Python",
+      "type": "python",
+      "request": "launch",
+      "program": "${file}",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "name": "Android (Java Debug)",
+      "type": "java",
+      "name": "Android Debugger",
+      "preLaunchTask": "build-android"
     }
   ]
 }

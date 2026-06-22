@@ -2,18 +2,63 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "label": "build",
+      "label": "build-dotnet",
       "command": "dotnet",
       "type": "process",
       "args": ["build", "${workspaceFolder}/projects/Windows"],
       "problemMatcher": ["$msCompile"],
-      "group": "build"
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
     },
     {
-      "label": "start web",
+      "label": "build-android",
+      "command": "./gradlew",
+      "type": "process",
+      "args": ["build"],
+      "cwd": "${workspaceFolder}/projects/Android",
+      "problemMatcher": ["$gradle"]
+    },
+    {
+      "label": "start-web",
       "type": "process",
       "command": "node",
       "args": ["${workspaceFolder}/projects/Web/server.js"],
+      "isBackground": true,
+      "group": "test",
+      "presentation": {
+        "reveal": "always"
+      }
+    },
+    {
+      "label": "npm-install-web",
+      "type": "process",
+      "command": "npm",
+      "args": ["install"],
+      "cwd": "${workspaceFolder}/projects/Web"
+    },
+    {
+      "label": "gradle-sync",
+      "type": "process",
+      "command": "./gradlew",
+      "args": ["sync"],
+      "cwd": "${workspaceFolder}/projects/Android"
+    },
+    {
+      "label": "run-python-tests",
+      "type": "process",
+      "command": "python",
+      "args": ["-m", "pytest", "${workspaceFolder}"],
+      "problemMatcher": [],
+      "group": "test"
+    },
+    {
+      "label": "lint-code",
+      "type": "process",
+      "command": "npm",
+      "args": ["run", "lint"],
+      "cwd": "${workspaceFolder}/projects/Web",
       "problemMatcher": []
     }
   ]

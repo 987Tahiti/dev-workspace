@@ -5,24 +5,51 @@
     "**/node_modules": true,
     "**/bin": true,
     "**/obj": true,
-    "**/.vscode-test": true
+    "**/.vscode-test": true,
+    "**/dist": true,
+    "**/build": true,
+    "**/.gradle": true,
+    "**/.idea": true
   },
   "editor.formatOnSave": true,
   "editor.tabSize": 2,
   "editor.detectIndentation": false,
+  "editor.rulers": [80, 120],
   "files.autoSave": "afterDelay",
   "files.autoSaveDelay": 1000,
   "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "terminal.integrated.fontSize": 12,
   "git.enableSmartCommit": true,
   "git.autofetch": true,
+  "git.confirmSync": true,
   "eslint.enable": true,
   "prettier.requireConfig": false,
   "python.languageServer": "Pylance",
+  "python.linting.enabled": true,
+  "python.linting.pylintEnabled": true,
   "C_Cpp.intelliSenseEngineFallback": "Enabled",
   "java.configuration.runtimes": [
     {
       "name": "JavaSE-17",
       "path": "C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.19.10-hotspot"
     }
-  ]
+  ],
+  "[java]": {
+    "editor.defaultFormatter": "redhat.java",
+    "editor.formatOnSave": true
+  },
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.python",
+    "editor.formatOnSave": true
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[csharp]": {
+    "editor.defaultFormatter": "ms-dotnettools.csharp",
+    "editor.formatOnSave": true
+  },
+  "csharp.semanticHighlighting.enabled": true,
+  "csharp.inlayHints.enableInlayHints": true
 }

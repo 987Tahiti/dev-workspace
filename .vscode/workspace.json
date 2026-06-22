@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Dev Workspace",
+    "folders": [
+      {
+        "path": "."
+      }
+    ],
+    "settings": {
+      "python.defaultInterpreterPath": "C:\\Python314\\python.exe",
+      "java.home": "C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.19.10-hotspot"
+    },
+    "launch": ".vscode/launch.json",
+    "tasks": ".vscode/tasks.json"
+  }
+]
