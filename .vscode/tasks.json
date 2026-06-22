@@ -1,0 +1,20 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build",
+      "command": "dotnet",
+      "type": "process",
+      "args": ["build", "${workspaceFolder}/projects/Windows"],
+      "problemMatcher": ["$msCompile"],
+      "group": "build"
+    },
+    {
+      "label": "start web",
+      "type": "process",
+      "command": "node",
+      "args": ["${workspaceFolder}/projects/Web/server.js"],
+      "problemMatcher": []
+    }
+  ]
+}

@@ -7,7 +7,8 @@ $stateFile = "C:\Dev\agents\ai-state.json"
 $ias = @(
     @{ name = 'OpenAI'; enabled = $true; maxTokens = 16000; usedTokens = 0; sessionLimit = 1000; usedSessions = 0; status = 'ready' },
     @{ name = 'Claude'; enabled = $true; maxTokens = 32000; usedTokens = 0; sessionLimit = 500; usedSessions = 0; status = 'ready' },
-    @{ name = 'Gemini'; enabled = $true; maxTokens = 25600; usedTokens = 0; sessionLimit = 500; usedSessions = 0; status = 'ready' }
+    @{ name = 'Gemini'; enabled = $true; maxTokens = 25600; usedTokens = 0; sessionLimit = 500; usedSessions = 0; status = 'ready' },
+    @{ name = 'Blackbox'; enabled = $true; maxTokens = 20000; usedTokens = 0; sessionLimit = 1000; usedSessions = 0; status = 'ready' }
 )
 
 function Load-State {

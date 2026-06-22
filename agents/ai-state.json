@@ -27,6 +27,15 @@
                     "usedSessions":  0,
                     "maxTokens":  25600,
                     "enabled":  true
+                },
+                {
+                    "status":  "ready",
+                    "name":  "Blackbox",
+                    "usedTokens":  0,
+                    "sessionLimit":  1000,
+                    "usedSessions":  0,
+                    "maxTokens":  20000,
+                    "enabled":  true
                 }
             ]
 }

@@ -1,0 +1,33 @@
+{
+  "recommendations": [
+    "ms-dotnettools.csharp",
+    "ms-dotnettools.vscode-dotnet-runtime",
+    "msjsdiag.debugger-for-chrome",
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint",
+    "ms-vscode.vscode-node-azure-pack",
+    "ms-vscode.vscode-typescript-tslint-plugin",
+    "angular.ng-template",
+    "redhat.vscode-yaml",
+    "visualstudioexptteam.vscodeintellicode",
+    "ms-vsliveshare.vsliveshare",
+    "ms-vsliveshare.vsliveshare-pack",
+    "formulahendry.code-runner",
+    "eamodio.gitlens",
+    "github.vscode-pull-request-github",
+    "bradlc.vscode-tailwindcss",
+    "ms-python.python",
+    "ms-python.vscode-pylance",
+    "zxh404.vscode-proto3",
+    "yzhang.markdown-all-in-one",
+    "ritwickdey.LiveServer",
+    "github.copilot",
+    "GitHub.copilot-chat",
+    "redhat.java",
+    "vscjava.vscode-java-pack",
+    "vscjava.vscode-gradle",
+    "vscjava.vscode-maven",
+    "slevesque.vscode-hexdump",
+    "Blackboxapp.blackbox"
+  ]
+}

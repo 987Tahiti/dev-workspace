@@ -1,0 +1,28 @@
+{
+  "files.exclude": {
+    "**/.git": true,
+    "**/.DS_Store": true,
+    "**/node_modules": true,
+    "**/bin": true,
+    "**/obj": true,
+    "**/.vscode-test": true
+  },
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1000,
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "git.enableSmartCommit": true,
+  "git.autofetch": true,
+  "eslint.enable": true,
+  "prettier.requireConfig": false,
+  "python.languageServer": "Pylance",
+  "C_Cpp.intelliSenseEngineFallback": "Enabled",
+  "java.configuration.runtimes": [
+    {
+      "name": "JavaSE-17",
+      "path": "C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.19.10-hotspot"
+    }
+  ]
+}
