@@ -1,0 +1,9 @@
+﻿{
+    "version":  "1.0",
+    "name":  "OpenAI Agent 1",
+    "ai":  "OpenAI",
+    "active":  true,
+    "created":  "2026-06-21T17:40:06.2184639-10:00",
+    "description":  "Agent spécialisé pour Code Synthesizer avec l\u0027IA OpenAI.",
+    "role":  "Code Synthesizer"
+}

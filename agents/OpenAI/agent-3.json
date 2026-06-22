@@ -1,0 +1,9 @@
+﻿{
+    "version":  "1.0",
+    "name":  "OpenAI Agent 3",
+    "ai":  "OpenAI",
+    "active":  true,
+    "created":  "2026-06-21T17:40:06.2448503-10:00",
+    "description":  "Agent spécialisé pour Bug Finder avec l\u0027IA OpenAI.",
+    "role":  "Bug Finder"
+}

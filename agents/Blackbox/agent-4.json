@@ -1,0 +1,9 @@
+﻿{
+    "version":  "1.0",
+    "name":  "Blackbox Agent 4",
+    "ai":  "Blackbox",
+    "active":  true,
+    "created":  "2026-06-21T17:40:06.2686746-10:00",
+    "description":  "Agent spécialisé pour Quality Checker avec l\u0027IA Blackbox.",
+    "role":  "Quality Checker"
+}

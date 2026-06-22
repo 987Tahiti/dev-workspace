@@ -1,0 +1,9 @@
+﻿{
+    "version":  "1.0",
+    "name":  "Gemini Agent 1",
+    "ai":  "Gemini",
+    "active":  true,
+    "created":  "2026-06-21T17:40:06.2770292-10:00",
+    "description":  "Agent spécialisé pour Frontend Coder avec l\u0027IA Gemini.",
+    "role":  "Frontend Coder"
+}

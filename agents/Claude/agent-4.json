@@ -1,0 +1,9 @@
+﻿{
+    "version":  "1.0",
+    "name":  "Claude Agent 4",
+    "ai":  "Claude",
+    "active":  true,
+    "created":  "2026-06-21T17:40:06.3049299-10:00",
+    "description":  "Agent spécialisé pour Refactoring Assistant avec l\u0027IA Claude.",
+    "role":  "Refactoring Assistant"
+}

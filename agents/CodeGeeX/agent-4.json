@@ -1,0 +1,9 @@
+﻿{
+    "version":  "1.0",
+    "name":  "CodeGeeX Agent 4",
+    "ai":  "CodeGeeX",
+    "active":  true,
+    "created":  "2026-06-21T17:40:06.3239291-10:00",
+    "description":  "Agent spécialisé pour Library Integrator avec l\u0027IA CodeGeeX.",
+    "role":  "Library Integrator"
+}

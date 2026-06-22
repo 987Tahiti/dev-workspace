@@ -1,0 +1,9 @@
+﻿{
+    "version":  "1.0",
+    "name":  "Claude Agent 5",
+    "ai":  "Claude",
+    "active":  true,
+    "created":  "2026-06-21T17:40:06.3079203-10:00",
+    "description":  "Agent spécialisé pour Security Auditor avec l\u0027IA Claude.",
+    "role":  "Security Auditor"
+}

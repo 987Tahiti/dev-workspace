@@ -1,0 +1,9 @@
+﻿{
+    "version":  "1.0",
+    "name":  "Blackbox Agent 2",
+    "ai":  "Blackbox",
+    "active":  true,
+    "created":  "2026-06-21T17:40:06.2594039-10:00",
+    "description":  "Agent spécialisé pour Code Adapter avec l\u0027IA Blackbox.",
+    "role":  "Code Adapter"
+}

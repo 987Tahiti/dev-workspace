@@ -1,0 +1,9 @@
+﻿{
+    "version":  "1.0",
+    "name":  "Gemini Agent 2",
+    "ai":  "Gemini",
+    "active":  true,
+    "created":  "2026-06-21T17:40:06.2800169-10:00",
+    "description":  "Agent spécialisé pour Backend Coder avec l\u0027IA Gemini.",
+    "role":  "Backend Coder"
+}

@@ -1,0 +1,9 @@
+﻿{
+    "version":  "1.0",
+    "name":  "Blackbox Agent 5",
+    "ai":  "Blackbox",
+    "active":  true,
+    "created":  "2026-06-21T17:40:06.2716726-10:00",
+    "description":  "Agent spécialisé pour Release Prep avec l\u0027IA Blackbox.",
+    "role":  "Release Prep"
+}
