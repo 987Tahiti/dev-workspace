@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cerveau - Dev Workspace</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 40px; line-height: 1.6; color: #222; background: #f6f8fa; }
+    h1, h2, h3 { color: #0b3d91; }
+    pre { background: #eef3fb; padding: 16px; border-radius: 8px; overflow-x: auto; }
+    section { margin-bottom: 24px; }
+    .note { background: #fff; padding: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
+    ul { margin: 0 0 16px 20px; }
+    .code { background: #e8f1ff; padding: 10px; border-radius: 8px; }
+  </style>
+</head>
+<body>
+  <div class="note">
+    <h1>Projection du cerveau</h1>
+    <section>
+      <h2>Vision générale</h2>
+      <p>Le cerveau central se trouve dans <code>C:\Dev</code>. Il coordonne trois axes principaux :</p>
+      <ul>
+        <li>Application Android</li>
+        <li>Application Web</li>
+        <li>Application Windows</li>
+      </ul>
+      <p>Il gère également des agents IA indépendants et un mécanisme de rotation en cas de limite de session/token.</p>
+    </section>
+    <section>
+      <h2>Structure du workspace</h2>
+      <ul>
+        <li><code>C:\Dev\projects\Android</code> : code mobile Android</li>
+        <li><code>C:\Dev\projects\Web</code> : code web frontend/backend</li>
+        <li><code>C:\Dev\projects\Windows</code> : applications Windows (.NET, WinUI, WPF, etc.)</li>
+        <li><code>C:\Dev\agents</code> : scripts d’agents IA, surveillance des limites, orchestration</li>
+        <li><code>C:\Dev\brain</code> : notes, stratégie, projection et suivi</li>
+      </ul>
+    </section>
+    <section>
+      <h2>Etat actuel</h2>
+      <ul>
+        <li>Dossiers créés</li>
+        <li>Git initialisé dans <code>C:\Dev</code></li>
+        <li><code>GitHub CLI</code> installé</li>
+        <li><code>VS Code</code> installé</li>
+        <li><code>Node.js</code> et <code>.NET SDK</code> disponibles</li>
+        <li><code>C:\Dev\agents\ai-monitor.ps1</code> créé</li>
+        <li>Etat IA initialisé avec 3 IA : OpenAI, Claude, Gemini</li>
+      </ul>
+    </section>
+    <section>
+      <h2>Priorités immédiates</h2>
+      <ol>
+        <li>Authentifier GitHub CLI : <code>gh auth login</code></li>
+        <li>Créer ou lier un dépôt GitHub dans <code>C:\Dev</code></li>
+        <li>Compléter <code>C:\Dev\agents\ai-monitor.ps1</code> avec des appels API réels</li>
+        <li>Définir un script de bascule automatique entre IA lors de dépassement de token/session</li>
+        <li>Documenter les limites de chaque IA et les règles de rotation</li>
+      </ol>
+    </section>
+    <section>
+      <h2>Plan du cerveau</h2>
+      <h3>Coordination</h3>
+      <ul>
+        <li>Le chef reste l’IA principale dans ce workspace.</li>
+        <li>Les autres IA sont des binômes de travail qui prennent le relais selon les limites de session.</li>
+        <li>Le gestionnaire de transfert doit détecter le dépassement de limite, marquer l’IA comme <strong>paused</strong>, sélectionner l’IA suivante <strong>ready</strong> et reprendre automatiquement quand une IA redevient disponible.</li>
+      </ul>
+      <h3>Surveillance</h3>
+      <ul>
+        <li>Etat <code>ai-state.json</code> des IA : OpenAI, Claude, Gemini</li>
+        <li>Stocker : <code>usedTokens</code>, <code>usedSessions</code>, <code>maxTokens</code>, <code>sessionLimit</code>, <code>status</code></li>
+        <li>Exposer un script de contrôle pour afficher l’IA active, forcer la rotation et réinitialiser l’état.</li>
+      </ul>
+      <h3>Développement</h3>
+      <ul>
+        <li>Android : structurer un projet Gradle/Android Studio</li>
+        <li>Web : choisir un framework léger (React/Next.js + Node.js / Express)</li>
+        <li>Windows : choix .NET SDK 8, application WinUI ou console + UI selon besoin</li>
+      </ul>
+    </section>
+    <section>
+      <h2>Règles du cerveau</h2>
+      <ul>
+        <li>Toujours stocker tout dans <code>C:\Dev</code></li>
+        <li>Garder une trace de chaque action dans <code>brain</code> et <code>agents</code></li>
+        <li>Ne pas toucher aux dossiers système ou personnels</li>
+        <li>Prioriser l’automatisation et la reprise après interruption</li>
+      </ul>
+    </section>
+    <section>
+      <h2>Fichiers de référence</h2>
+      <ul>
+        <li><code>C:\Dev\brain\agent-notes.md</code></li>
+        <li><code>C:\Dev\brain\brain-projection.md</code></li>
+        <li><code>C:\Dev\agents\ai-monitor.ps1</code></li>
+        <li><code>C:\Dev\README.md</code></li>
+      </ul>
+    </section>
+  </div>
+</body>
+</html>

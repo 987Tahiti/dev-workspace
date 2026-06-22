@@ -1,0 +1,32 @@
+﻿{
+    "lastChecked":  "2026-06-21T16:46:26.9097143-10:00",
+    "ias":  [
+                {
+                    "sessionLimit":  1000,
+                    "maxTokens":  16000,
+                    "usedSessions":  1,
+                    "name":  "OpenAI",
+                    "status":  "ready",
+                    "usedTokens":  100,
+                    "enabled":  true
+                },
+                {
+                    "status":  "ready",
+                    "name":  "Claude",
+                    "usedTokens":  0,
+                    "sessionLimit":  500,
+                    "usedSessions":  0,
+                    "maxTokens":  32000,
+                    "enabled":  true
+                },
+                {
+                    "status":  "ready",
+                    "name":  "Gemini",
+                    "usedTokens":  0,
+                    "sessionLimit":  500,
+                    "usedSessions":  0,
+                    "maxTokens":  25600,
+                    "enabled":  true
+                }
+            ]
+}
